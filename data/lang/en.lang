@@ -1,0 +1,88 @@
+Theme:
+Dark:
+Light:
+Language:
+Operation is too fast. Try again later.:
+Running:
+Type:
+Cron:
+Setting:
+File:
+Total:
+Active:
+Submit:
+Backup Success:
+Archive:
+Edit:
+Description:
+Select Folder:
+Select File:
+If the file is too large, there may be stutters, please wait patiently:
+Auto Backup:
+Auto backup started:
+Please confirm the operation first:
+Overwrite with the latest data:
+Manage:
+New Backup:
+The following is a list of files that are being monitored:
+Path:
+Statis:
+Active:
+Please input Remark:
+Confirm:
+Status:
+Startup:
+Please cancel the protection first:
+New:
+Please enter comments for the new backup:
+Confirm to Overwrite?:
+Confirm to delete?:
+This operation cannot be recovered:
+Format Invalid:
+Format:
+Select:
+Reset:
+Protect:
+Bakup Time:
+Backup Now:
+Cron format invalid:
+Name:
+Row:
+Add the path of monitoring backup:
+Unknow:
+Overwrite Success:
+Delete:
+Open In FileSystem:
+Use Auto Backup:
+number:
+Backup Error:
+Remark:
+Check Monitor:
+Operate:
+Home:
+Has Error:
+Remove:
+Please input name:
+Delete error:
+Stop:
+Folder:
+Startup File:
+Next Start Time:
+Overwrite:
+Open Backup Folder:
+Cancel:
+Delete Success:
+Please select monitor file:
+When Archived:
+Will move to archived tab:
+and Stop the current auto backup task:
+Monitor Files:
+Totally Delete:
+Reactivate:
+Please Input the name to confirm delete:
+Delete Error,Name not match:
+Filter by Name or Descirption:
+Auto Backup Tasks:
+Auto Backup Already Restart:
+Open:
+Close:

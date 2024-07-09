@@ -1,0 +1,87 @@
+Theme:主题
+Dark:黑暗
+Light:明亮
+Language:语言
+Operation is too fast. Try again later.:操作过快，稍后重试
+Running:启动
+Type:类型
+Cron:定时
+Setting:设置
+File:文件
+Total:总数
+Active:激活
+Submit:提交
+Backup Success:备份成功
+Archive:归档
+Edit:编辑
+Description:描述
+Select Folder:选择文件夹
+Select File:选择文件
+If the file is too large, there may be stutters, please wait patiently:如果文件过大可能会有卡顿，请耐心等待
+Auto Backup:自动备份
+Auto backup started:已开启自动备份
+Please confirm the operation first:请先确认操作
+Overwrite with the latest data:使用最新数据覆盖
+Manage:管理
+New Backup:新备份
+The following is a list of files that are being monitored:以下是正在监听的文件列表
+Path:路径
+Statis:统计
+Please input Remark:请输入备注
+Confirm:确认
+Status:状态
+Startup:启动
+Please cancel the protection first:请先取消保护
+New:新增
+Please enter comments for the new backup:请输入新备份的备注信息
+Confirm to Overwrite?:确定覆盖？
+Confirm to delete?:确定删除？
+This operation cannot be recovered:此操作无法恢复
+Format Invalid:格式错误
+Format:格式
+Select:选择
+Reset:重置
+Protect:保护
+Bakup Time:备份时间
+Backup Now:立即备份
+Cron format invalid:Cron 格式无效
+Name:名称
+Row:序号
+Add the path of monitoring backup:新增监听备份的路径
+Unknow:未知
+Overwrite Success:覆盖成功
+Delete:删除
+Open In FileSystem:在系统管理器中打开
+Use Auto Backup:开启自动备份
+number:个
+Backup Error:备份失败
+Remark:备注
+Check Monitor:检查监听内容
+Operate:操作
+Home:主页
+Has Error:发生错误
+Remove:移除
+Please input name:请输入名称
+Delete error:删除失败
+Stop:停止
+Folder:文件夹
+Startup File:启动文件
+Next Start Time:下次执行时间
+Overwrite:覆盖
+Open Backup Folder:打开备份文件夹
+Cancel:取消
+Delete Success:删除成功
+Please select monitor file:请选择监听文件
+When Archived:存档后
+Will move to archived tab:将会移动到存档栏目
+and Stop the current auto backup task:并且会停止当前的自动备份任务
+Monitor Files:监听文件
+Totally Delete:彻底删除
+Reactivate:重新激活
+Please Input the name to confirm delete:请输入名称以确认删除
+Delete Error,Name not match:删除失败，名称不匹配
+Filter by Name or Descirption:通过名称或描述筛选
+Auto Backup Tasks:自动备份任务
+Auto Backup Already Restart:自动备份已重启
+Open:打开
+Close:关闭

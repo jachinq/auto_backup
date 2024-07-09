@@ -1,0 +1,6 @@
+/design
+/cache
+/data/backup/
+/data/*.json
+/log
+/target
