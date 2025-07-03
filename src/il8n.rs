@@ -41,20 +41,15 @@ impl Default for Translator {
 }
 
 impl Translator {
-    pub fn get<'a>(&'a self, text: &'a str) -> &str {
-        match self.lang {
-            Lang::En => return text,
-            Lang::Cn => {
-                if let Some(value) = self.map.get(text) {
-                    if value.is_empty() {
-                        text
-                    } else {
-                        value
-                    }
-                } else {
-                    text
-                }
+    pub fn get<'a>(&'a self, text: &'a str) -> &'a str {
+        if let Some(value) = self.map.get(text) {
+            if value.is_empty() || value == "" {
+                text
+            } else {
+                value
             }
+        } else {
+            text
         }
     }
 
@@ -70,7 +65,7 @@ fn load_data(lang: &Lang) -> HashMap<String, String> {
     let mut map = HashMap::new();
     if let Ok(data) = util::read_data(&path) {
         let mut collect: Vec<(String, String)> = vec![];
-        for line in data.split("\n") {
+        for line in data.split("\r\n") {
             let line: Vec<String> = line.split(":").map(|item| item.to_string()).collect();
             if line.is_empty() {
                 continue;

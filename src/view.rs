@@ -128,7 +128,7 @@ impl AutoBackup {
 
                 // task
                 card_frame.show(ui, |ui| {
-                    ui.strong(self.t.get("Auto Backup Tasks "));
+                    ui.strong(self.t.get("Auto Backup Tasks"));
 
                     let (w, d) = (235, 30);
                     let fill = match theme {
