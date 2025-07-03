@@ -221,7 +221,7 @@ impl AutoBackup {
                     Command::TotallyDelete { save_item } => {
                         // 根据id删掉对应文件夹
                         println!("{save_item:?}");
-                        let current_dir = env!("CARGO_MANIFEST_DIR").replace("\\", "/");
+                        let current_dir = util::current_dir();
                         let backup_folder =
                             format!("{}/data/backup/{}", current_dir, save_item.id.to_string());
                         util::delete_dirs(&backup_folder);

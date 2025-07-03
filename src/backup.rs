@@ -56,7 +56,7 @@ pub fn backup_file(
     monitors: Vec<crate::data::Monitor>,
     toasts: &mut Vec<(ToastLevel, String)>,
 ) -> Backup {
-    let current_dir = env!("CARGO_MANIFEST_DIR").replace("\\", "/");
+    let current_dir = util::current_dir();
     let time = chrono::Local::now();
     let backup_folder = format!(
         "{}/data/backup/{}/{}",

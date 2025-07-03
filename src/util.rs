@@ -1,11 +1,7 @@
 #![allow(unused)]
 
 use std::{
-    fs::{self, DirEntry},
-    io,
-    path::Path,
-    sync::Arc,
-    time::{Duration, SystemTime},
+    env, fs::{self, DirEntry}, io, path::Path, sync::Arc, time::{Duration, SystemTime}
 };
 
 use chrono::{DateTime, Datelike, Local, Timelike};
@@ -15,10 +11,13 @@ use crate::{backup::BackupData, log};
 
 // 获取当前程序运行路径
 pub fn current_dir() -> String {
-    match std::env::current_dir() {
+    match env::current_dir() {
         Ok(path) => path.display().to_string(),
         Err(_) => ".".to_string(),
     }
+    // env!("CARGO_MANIFEST_DIR").replace("\\", "/")
+    // ".".to_string()
+    // env::current_dir().unwrap().display().to_string()
 }
 
 /// 文件是否存在 可以判断 路径是否存在，文件、文件夹都可以
